@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test Rendering Task1, should match to snapshot 1`] = `
+<Styled(ViewNB)
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flex": 1,
+      "justifyContent": "center",
+      "margin": 20,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    You should see the pyramid text displayed in the console, search for DEXHIGH in logs
+  </Text>
+  <Styled(Button)
+    onPress={[Function]}
+    style={
+      Object {
+        "alignSelf": "center",
+        "borderRadius": 30,
+        "margin": 15,
+        "padding": 15,
+      }
+    }
+    success={true}
+  >
+    <Text
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+       See next Task 
+    </Text>
+  </Styled(Button)>
+</Styled(ViewNB)>
+`;
+
+exports[`Snapshot test Rendering Task2a, should match to snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "center",
+      "alignSelf": "center",
+      "display": "flex",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "marginVertical": 50,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 15,
+        }
+      }
+    >
+      Timer in seconds
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 80,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      0
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <Styled(Button)
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "borderRadius": 20,
+          "justifyContent": "center",
+          "marginHorizontal": 10,
+          "padding": 10,
+          "width": 120,
+        }
+      }
+      success={true}
+    >
+      <Text
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+         Start
+      </Text>
+    </Styled(Button)>
+    <Styled(Button)
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "borderRadius": 20,
+          "justifyContent": "center",
+          "marginHorizontal": 10,
+          "padding": 10,
+          "width": 120,
+        }
+      }
+      warning={true}
+    >
+      <Text
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+         Stop and Reset
+      </Text>
+    </Styled(Button)>
+  </View>
+</View>
+`;
+
+exports[`Snapshot test Rendering Task2b, should match to snapshot 1`] = `
+<index
+  backgroundColor="#4B4BC9"
+  bounces={true}
+  foreground={[Function]}
+  headerType="AvatarHeader"
+  image={
+    Object {
+      "testUri": "../../../assets/linker.png",
+    }
+  }
+  leftTopIcon={null}
+  parallaxHeight={250}
+  renderBody={[Function]}
+  rightTopIcon={null}
+  subtitle="Top 100 Crypto currency list"
+  title="Linkercoin"
+/>
+`;

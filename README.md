@@ -1,6 +1,10 @@
+Version:
+
+npm - 6.14.5
+
 Steps to review the code:
 
-1. Clone the code from GitLab, link:
+1. Clone the code from GitLab, link: https://github.com/Vinoththomas07/tests.git[master]
 2. Do, npm install
 3. Debug the app using expo start, connect with any emulator or real device
 4. Screen1: Will display the pyramid text in the console [ The default text in the pyramid is ‘DEXHIGH’. But it is dynamic, it can support any text, give it a try]
